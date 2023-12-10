@@ -101,11 +101,8 @@ public class Main {
                 String jawaban = scanner.next().toLowerCase();
                 lanjutTransaksi = jawaban.equals("ya");
             }
-        }
-
-        
-
         System.out.println("Terima kasih telah menggunakan program ini.");
         scanner.close();
+        }
     }
 }
